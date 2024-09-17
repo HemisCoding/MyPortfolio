@@ -30,6 +30,7 @@
 
     <!-- Todo: remove the below script once you finish your portfolio -->
     <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+
   </head>
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
@@ -40,9 +41,8 @@
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Alin Hemeci</span>
-          <br>
-          I'm the Developer you need.
+          Hi, I'm <span class="text-color-main">Alin Hemeci,</span>
+           the developer who can bring your vision to life.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
@@ -58,20 +58,23 @@
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
-              <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px" src="/profile.6ee28169.jpg">
+              <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px" src="/profile.36203507.png">
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                Hi, I'm Alin, an ambitious Mechanical Engineer focused on efficiency and results.
-                Due to my involvement in Engineering, Tech and Financial industries from an young age, I have successfully achieved superior problem-solving skills and a critical thinking along a creative and team-work oriented mentality.
+                Hi! I am Alin Hemeci, a fervent Machine Learning Engineer, dedicated to harnessing AI's power to solve complex challenges.
+                <br>
+                Alongside my expertise in developing sophisticated machine learning models, I am familiar with Django and Vue.js, enabling me to build robust and dynamic web applications. 
+                <br>
               </p>
+
               <p class="about-wrapper__info-text">
-                My goal is to make a way of living from my passion (Software Engineering) and travel the world.
+                My goal is to make a way of living from what I love (Software Engineering 💻) & Travel the entire 🌎.
               </p>
               <span class="d-flex mt-3">
-                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="/assets/Hem%27s%20Resume.pdf">
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="/assets/HemizResume2024.pdf">
                   View Resume
                 </a>
               </span>
@@ -81,12 +84,56 @@
       </div>
     </section>
     <!-- /END About Section -->
+     
 
     <!-- **** Projects Section **** -->
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
+
+                    <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h1 class="project-wrapper__text-title">Stock Market Analyser</h1>
+                <div>
+                  <p class="mb-4">
+                    </p><p>Frontend: VueJs</p> 
+                    <p>Backend: Django</p>
+                    <p>Database: PostgreSQL</p>
+                    <p>
+                      </p><h2 class="project-wrapper__text-title">How it works:</h2>
+                      <p>
+                        Users can input a stock ticker in the search bar, which triggers a process to fetch the latest news related to the stock.
+                        <br>
+                        The news articles are then analyzed using a sentiment analysis model, providing insights into the overall sentiment (positive, negative, or neutral).
+                        <br>
+                        Additionally, the system generates key stock data and offers a price prediction, with the model delivering an accuracy of approximately 65%.
+                      </p>
+                   <p></p>
+                    <p></p>
+                  <p></p>
+                </div>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://market-trends.netlify.app/">
+                  See Live
+                </a>
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/HemisCoding/Market-Trends-Frontend">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="/generatedStock.a5179987.png">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
 
           <!-- Notice: each .row is a project -->
           <div class="row">
@@ -95,15 +142,16 @@
                 <h3 class="project-wrapper__text-title">Face Recognition App</h3>
                 <div>
                   <p class="mb-4">
-                    The Frontend was made using JavaScript + React.
-                    Backend with NodeJs.
-                    Database is PostgresSQL.
-                  </p>
+                     It is a FULL Stack Project.
+                     The Frontend was created using ReactJs, the Backend was made with NodeJs and PostgreSQL for Database.
+                     </p><h2 class="project-wrapper__text-title">How it works:</h2>
+                     <p>After registration process you need to paste an image link and the app will automatically find the face of the person.</p>
+                  <p></p>
                 </div>
-                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://facedetectapp-adks.onrender.com">
                   See Live
                 </a>
-                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/HemisCoding/FaceDetectApp">
                   Source Code
                 </a>
               </div>
@@ -119,17 +167,18 @@
             </div>
           </div>
           <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
+        
+         <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Robofriends</h3>
                 <div>
                   <p class="mb-4">
-                    This was my first React App. An responsive website that can have characters filters.
-                    The robots are generating randomly based on their name and they are created by an API.
-                  </p>
+                  </p><p>This was my first React App.</p>
+                  <p>It is an responsive website with a search bar that has character filtering.</p>
+                  <p>The robots are generated randomly by using of an API implemented in the code.</p>
+                  <p></p>
                 </div>
                 <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://hemiscoding.github.io/robofriends-reactproject/">
                   See Live
@@ -151,51 +200,13 @@
           </div>
           <!-- /END Project -->
 
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
-                    <img alt="Project Image" class="img-fluid" src="/project.f500882b.jpg">
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-        </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
-
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
           <p class="contact-wrapper__text">alinhemeci@gmail.com</p>
-          <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:example@email.com">Call to Action</a>
+          <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="https://www.linkedin.com/in/alin-andrei-hemeci-812537195/">Let's Connect</a>
         </div>
       </div>
     </section>
@@ -221,21 +232,11 @@
 
         <hr>
 
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
-        <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
-        </p>
 
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a rel="noreferrer" class="github-button" href="https://github.com/cobidev/simplefolio/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
-          <a rel="noreferrer" class="github-button" href="https://github.com/cobidev/simplefolio" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star cobidev/simplefolio on GitHub">Star</a>
-        </p>
-      </div>
-    </footer>
-    <!-- /END Footer Section -->
+
+
 
     <script defer="" src="/index.975ef6c8.js"></script>
-  </body>
+  </div></footer></div></div></section></body>
 </html>
+
